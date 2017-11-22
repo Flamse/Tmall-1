@@ -1,0 +1,144 @@
+body {
+	font-size: 12px;
+	font-family: Arial;
+}
+
+.categoryPageDiv {
+	max-width: 1080px;
+	margin: 10px auto;
+}
+
+.categorySortBar {
+	margin: 40px 0px 20px 0px;
+	background-color: #FAF9F9;
+	height:24px;
+}
+
+.glyphicon {
+	font-size: 12px;
+}
+
+a {
+	text-decoration: none;
+	color: #806F66;
+}
+
+a:hover {
+	color: #C40000;
+	text-decoration: NONE;
+}
+
+.categorySortBarTable {
+	border-collapse: collapse;
+	display: inline-block;
+}
+
+.categorySortBarTable td {
+	height: 20px;
+	font-size: 14px;
+	border: 1px solid #CCCCCC;
+	color: #806F66;
+	border: 1px solid #CCCCCC;
+}
+
+table.categorySortBarTable input {
+	height: 20px;
+	width: 70px;
+	margin:0;
+	padding:0;
+	border-width: 0px;
+}
+
+.categorySortTable td:hover {
+	background-color: lightgray;
+}
+
+.categorySortTable a:hover {
+	color: #C40000;
+	text-decoration: none;
+}
+/*产品展示*/
+.grayColumn{
+	background-color:#cccccc;
+}
+.categoryProducts {
+	margin: 0px 20px;
+}
+
+.productUnit {
+	display: inline-block;
+	width: 245px;
+	margin: 5px 2px;
+	border: 3px solid #fff;
+}
+
+div.productUnitFrame {
+	border: 1px solid #eee;
+	height: 365px;
+}
+
+div.productUnit:hover {
+	border: 3px solid #C40000;
+}
+
+.productUnitFrame:hover {
+	border: 1px solid #C40000;
+}
+
+.productImage {
+	display: block;
+	width: 245px;
+}
+
+.productPrice {
+	display: block;
+	color: #C40000;
+	font-size: 20px;
+	margin: 5px 10px;
+}
+
+.productInfo {
+	font-size: 0px;
+	height: 20px;
+}
+
+.productLink {
+	display: block;
+	color: #333333;
+}
+
+.tmallLink {
+	display: block;
+	margin: 5px 0;
+}
+
+.monthDeal, .productReview, .wangwang {
+	display: inline-block;
+	height: 20px;
+	font-size: 14px;
+	padding-left: 5px;
+	border-top: 1px solid lightgray;
+	border-right: 1px solid lightgray;
+}
+
+.monthDeal {
+	width: 102px;
+}
+
+.productReview {
+	width: 100px;
+}
+
+.wangwang {
+	width: 23px;
+}
+
+span.productDealNumber {
+	font-weight: bold;
+	color: #B57C5B;
+}
+
+div.productUnit span.productReviewNumber {
+	font-weight: bold;
+	color: #3388BB;
+}

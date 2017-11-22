@@ -1,0 +1,45 @@
+div.main {
+	position: absolute;
+	margin: 0px 200px;
+}
+
+a {
+	font-size: 14px;
+	color: CornflowerBlue;
+	text-decoration: none;
+}
+
+div.menuweapon {
+	position: absolute;
+	left: 10px;
+	top: 20px;
+}
+
+div.menuarmor {
+	position: absolute;
+	left: 45px;
+	top: 20px;
+}
+
+div.menuhero {
+	position: absolute;
+	left: 80px;
+	top: 20px;
+}
+
+div.menu {
+	width: 80px;
+	margin-top: 15px;
+	border: 1px solid lightgray;
+	display: none;
+}
+
+div.menu a {
+	display: block;
+	padding: 10px 0px 5px 10px;
+	color: #888;
+}
+
+div.menu a:hover {
+	background-color: lightgray;
+}

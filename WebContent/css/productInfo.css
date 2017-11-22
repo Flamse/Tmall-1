@@ -1,0 +1,326 @@
+.main {
+	width: 1080px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.imgAndInfo {
+	float: left;
+}
+
+.bigImg {
+	width: 420px;
+	height: 420px;
+	border: 1px solid #F2F2F2;
+}
+
+.smallImageDiv {
+	width: 400px;
+	padding: 11px 0 11px 50px;
+}
+
+.smallImage {
+	width: 60px;
+	height: 60px;
+	margin: 2px;
+	border: 2px solid transparent;
+}
+
+.smallImage:hover {
+	border: 2px solid black;
+}
+/*产品信息*/
+.productInfo {
+	float: left;
+	height: 450px;
+	width: 600px;
+	margin: 0 10px;
+	height: 450px;
+}
+
+.productTitle {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.productSecondTitle {
+	color: #C40000;
+}
+
+.juhuasuan {
+	background-color: #2DA77A;
+	color: white;
+	text-align: center;
+	line-height: 40px;
+	margin-top: 10px;
+}
+
+.juhuasuanBig {
+	font-size: 20px;
+}
+
+.juhuasuanTime {
+	color: #FFC057;
+	font-weight: bold;
+}
+
+div.productPrice {
+	background-image: url(http://how2j.cn/tmall/img/site/priceBackground.png);
+	line-height: 30px;
+	padding: 0 10px;
+}
+
+div.gouwuquandiv span {
+	font-size: 12px;
+}
+
+div.gouwuquandiv img {
+	height: 16px;
+}
+
+.originalPrice {
+	text-decoration: line-through;
+}
+
+span.sign-yuan {
+	color: red;
+}
+
+.promotionPrice {
+	font-size: 30px;
+	color: red;
+}
+
+.desc {
+	margin-right: 50px;
+}
+
+.salesVolumeAndEvaluation {
+	margin: 10px 0;
+	border-top: 1px solid #C9C9C9;
+	border-bottom: 1px solid #C9C9C9;
+	color: gray;
+}
+
+div.salesVolumeAndEvaluation div {
+	margin: 5px 0px;
+	width: 296px;
+	font-size: 15px;
+	text-align: center;
+	display: inline-block;
+}
+
+.salesVolumeDiv {
+	border-right: 1px solid gray;
+}
+
+.salesVolume {
+	color: red;
+	font-weight: bold;
+}
+
+.Evaluation {
+	color: #2DA77A;
+	font-weight: bold;
+}
+
+.DesiredPurchaseQuantity {
+	margin-left: 5px;
+	vertical-align: middle;
+	color: gray;
+}
+
+.productNumberSetting {
+	width: 40px;
+}
+
+.arrow {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+.updown {
+	border: 1px solid gray;
+	text-align: center;
+	display: block;
+	width: 20px;
+	height: 14px;
+	padding-top: 4px;
+}
+
+.updown img {
+	display: inline-block;
+	vertical-align: top;
+}
+
+span.updownMiddle {
+	display: block;
+	height: 4px;
+}
+
+div.servicePromise {
+	margin: 10px 0;
+}
+
+div.servicePromise span {
+	color: #999999;
+}
+
+div.servicePromise a {
+	color: #666666;
+}
+
+.buyBottom {
+	text-align: center;
+	margin: 10px 0;
+}
+
+.glyphicon-shopping-cart {
+	margin-right: 5px;
+}
+
+a.addToCart button {
+	width: 180px;
+	background-color: #C40000;
+	border: 1px solid #C40000;
+	height: 40px;
+	margin-right: 20px;
+}
+
+a.buyNow button {
+	width: 180px;
+	height: 40px;
+	background-color: #FFEDED;
+	border: 1px solid #C40000;
+}
+/*商品展示区*/
+.productDetailDiv {
+	border: 1px solid gray;
+}
+
+.productDetailTopPart {
+	border: 1px solid gray;
+}
+
+.productDetailTopPart a:hover {
+	text-decoration: none;
+	cursor: pointer !important;
+	color: #c40000;
+}
+
+.productDetailTopReviewLink {
+	border-right: 1px solid #cfbfb1;
+	display: inline-block;
+	width: 90px;
+	line-height: 46px;
+	text-align: center;
+}
+
+.productDetailTopPartSelectedLink {
+	display: inline-block;
+	width: 90px;
+	line-height: 46px;
+	text-align: center;
+}
+
+.selected {
+	display: inline-block;
+	border-left: 1px solid #cfbfb1;
+	border-right: 1px solid #cfbfb1;
+	width: 90px;
+	line-height: 46px;
+	text-align: center;
+	color: #c40000;
+	font-weight: bold;
+	position: relative;
+}
+
+a.selected:before {
+	content: "";
+	display: block;
+	border: 1px solid #B00000;
+	width: 90px;
+	height: 0px;
+	margin-left: -2px;
+	margin-top: -2px;
+	/*position: absolute;
+	top: -1px;
+	margin-left: -1px;*/
+}
+
+a.selected:after {
+	content: "";
+	display: block;
+	position: absolute;
+	top: -1px;
+	left: 50%;
+	/*美人尖实现方式*/
+	width: 0px;
+	height: 0px;
+	border-width: 4px;
+	border-style: solid;
+	border-color: #B00000 transparent transparent;
+}
+
+.productParamterPart {
+	border: 1px solid gray;
+	padding: 15px;
+	line-height: 30px;
+}
+
+.productParamter {
+	font-size: 14px;
+}
+
+.productParamterList {
+	
+}
+
+.productParamterList span {
+	display: inline-block;
+	width: 220px;
+	height: 25px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.productDetailTopReviewLinkNumber {
+	color: #3355B9;
+}
+
+.productDetailImagesPart {
+	display: block;
+	text-align: center;
+}
+/*评价部分*/
+.productReviewContentPart {
+	border: 1px solid gray;
+	width: 1080px;
+	display: none;
+}
+
+.productReviewItem {
+	border-bottom: 1px solid gray;
+	padding: 5px;
+}
+
+.productReviewItemDesc {
+	float: left;
+	display: inline-block;
+	width: 85%;
+}
+
+.productReviewItemContent {
+	
+}
+
+.productReviewItemDate {
+	color: gray;
+	margin: 15px 0 0;
+}
+
+.productReviewItemUserInfo {
+	display: inline-block;
+	margin: 10px 5px 0 20px;
+}

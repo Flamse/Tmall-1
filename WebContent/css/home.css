@@ -1,0 +1,167 @@
+body {
+	font-size: 12px;
+	font-family: Arial;
+}
+
+.head {
+	background-color: #e2e2e3;
+}
+
+img.catear {
+	position: absolute;
+	left: 0;
+	top: 0;
+	height: 20px;
+	display: none;
+}
+
+.topMenu {
+	width: 1080px;
+	font-size: 17px;
+	margin: 0px auto;
+	height: 30px;
+	background-color: #FF0000;
+}
+
+.productList {
+	float: left;
+	width: 170px;
+	height: 100%;
+	background-color: red;
+	text-align: center;
+	font-weight: bold;
+}
+
+.productList span {
+	line-height: 30px;
+	vertical-align: middle;
+}
+
+.rightMenu {
+	float: left;
+	background-color: #FF0000
+}
+
+.rightMenu span {
+	line-height: 28px;
+	vertical-align: middle;
+	margin-left: 20px;
+	color: white;
+}
+
+.rightMenu span a {
+	color: white;
+}
+
+.top-show {
+	position: relative;
+	left: 0;
+	width: 1080px;
+	margin: 0 auto;
+	border-top: 1px solid red;
+}
+
+div#myCarousel {
+	width: 910px;
+	margin-left:170px;
+}
+
+div#carousel-example-generic {
+	margin: 0 auto;
+}
+
+.list1 {
+	position: absolute;
+	width: 170px;
+	height: 385px;
+	background-color: #e2e2e3;
+	font-size: 14px;
+}
+.list2{
+}
+
+div.productsAsideCategorys {
+	position: absolute;
+	margin-left: 170px;
+	width: 910px;
+	height: 385px;
+	display: none;
+	background-color: white;
+	font-size: 14px;
+}
+
+div.eachCategory {
+	padding-bottom: 1px;
+}
+
+div.row {
+	margin: 20px 30px;
+	border-bottom: 1px dashed #e7e7e7;
+}
+
+div.row a {
+	margin: 0px 10px;
+}
+/*主页产品显示*/
+.homepageCategoryProducts {
+	margin: 0 auto;
+	margin-top: 10px;
+	background-color: #F5F5F5;
+}
+
+.eachHomepageCategoryProducts {
+	width: 1080px;
+	margin: 0 auto;
+}
+
+.left-mark {
+	width: 5px;
+	height: 20px;
+	display: inline-block;
+	background-color: green;
+}
+
+.categoryTitle {
+	font-size: 16px;
+	font-weight: bold;
+	margin: 15px;
+}
+
+.productItem {
+	width: 206px;
+	float: left;
+	margin-left: 10px;
+	border-top: 1px solid lightgray;
+	background-color: white;
+	border-top: 1px sol;
+}
+
+.productItem img {
+	width: 206px;
+	height: 200;
+}
+
+.productItem img:hover {
+	opacity: 0.5;
+	filter: alpha(opacity = 70);
+}
+
+.productItem a {
+	text-decoration: none;
+}
+
+.productItem a:hover {
+	text-decoration: none;
+	color: #C40000;
+}
+
+.productItemDescLink span {
+	display: block;
+}
+
+.productPrice {
+	margin-left: 5px;
+	COLOR: RED;
+	FONT-SIZE: 18PX;
+	font-weight: bold;
+}
